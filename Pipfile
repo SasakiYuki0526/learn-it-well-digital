@@ -1,3 +1,18 @@
+#[[source]]
+#url = "https://pypi.org/simple"
+#verify_ssl = true
+#name = "pypi"
+#
+#[packages]
+#django = "*"
+#
+#[dev-packages]
+#
+#[requires]
+#python_version = "3.8"
+
+
+
 [[source]]
 url = "https://pypi.org/simple"
 verify_ssl = true
@@ -5,6 +20,10 @@ name = "pypi"
 
 [packages]
 django = "*"
+gunicorn = "*"
+whitenoise = "*"
+dj-database-url = "*"
+psycopg2-binary = "*"
 
 [dev-packages]
 
