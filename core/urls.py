@@ -28,4 +28,14 @@ urlpatterns = [
     path('service/', views.service),
     path('team/', views.team),
     path('testimonial/', views.testimonial),
+    path('login/', views.login),
+    path('forgetPwd/', views.forgetPwd),
+    path('register/', views.register),
+    path('userdetail/', views.Udetail),
+    path('studyroom/', views.sroom),
+    path('discusroom/', views.droom),
+    path('achievement/', views.achievement),
+    path('report', views.report),
+    path('studyplan/', views.Splan),
+
 ]
